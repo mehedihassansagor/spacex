@@ -1,0 +1,27 @@
+.allData{
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px; 
+}
+@media only screen and (max-width: 900px){
+    .allData{
+        grid-template-columns: auto auto auto;
+        width:100%;
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 800px){
+    .allData{
+        grid-template-columns: auto auto;
+        width:100%;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	.allData{
+        grid-template-columns: auto;
+        width:100%;
+        text-align:center;
+    }
+}
