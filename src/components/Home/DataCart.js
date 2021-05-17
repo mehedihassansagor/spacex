@@ -3,8 +3,8 @@ import React from 'react';
 const DataCart = ({ allData }) => {
     console.log(allData)
     return (
-        <div>
-            <div style={{ border: "1px solid black"}}>
+        <div  style={{boxShadow:"3px 3px 40px gray", padding:'3px'}}>
+            <div>
                 <img style={{height:"200px",width:"200px"}} className="img-fluid text-center" src={allData.links.mission_patch} alt="" />
             </div>
             <div>
